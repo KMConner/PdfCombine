@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactManager">
+    <artifact type="jar" name="PdfCombine:jar">
+      <output-path>$PROJECT_DIR$/out/artifacts/PdfCombine_jar</output-path>
+      <root id="archive" name="PdfCombine.jar">
+        <element id="module-output" name="PdfCombine" />
+        <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/pdfbox/pdfbox/2.0.11/pdfbox-2.0.11.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/pdfbox/fontbox/2.0.11/fontbox-2.0.11.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-cli/commons-cli/1.4/commons-cli-1.4.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$KOTLIN_BUNDLED$/lib/kotlin-stdlib.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$KOTLIN_BUNDLED$/lib/kotlin-reflect.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$KOTLIN_BUNDLED$/lib/kotlin-test.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$KOTLIN_BUNDLED$/lib/kotlin-stdlib-jdk7.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$KOTLIN_BUNDLED$/lib/kotlin-stdlib-jdk8.jar" path-in-jar="/" />
+      </root>
+    </artifact>
+  </component>
   <component name="InspectionProjectProfileManager">
     <profile version="1.0">
       <option name="myName" value="Project Default" />
