@@ -41,11 +41,11 @@ fun combine(options: CombineOptions) {
     val out = PDDocument()
     while (f < firstDocument.numberOfPages && s < secondDocument.numberOfPages) {
         if (f > s) {
-            out.addPage(firstDocument.getPage(f))
-            f++
-        } else {
             out.addPage(secondDocument.getPage(if (options.revert) secondDocument.numberOfPages - s - 1 else s))
             s++
+        } else {
+            out.addPage(firstDocument.getPage(f))
+            f++
         }
     }
 
